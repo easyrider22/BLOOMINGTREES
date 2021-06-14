@@ -23,18 +23,12 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="selectImageButton" Content="Select Image" Grid.Row="1" Grid.Column="1" FontSize="14"  Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Click = "selectImageButton_Click" IsEnabled="True"/>
+        <Button x:Name="selectImageButton" Content="Preview Images" Grid.Row="1" Grid.Column="1" FontSize="14"  Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Click = "selectImageButton_Click" IsEnabled="True"/>
 
-        
+        <Button x:Name="editImageButton" Content="Edit Images" Grid.Row="1" Grid.Column="2" FontSize="14"  Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Click = "editImageButton_Click" IsEnabled="True"/>
 
         <Image x:Name="displayImage" Grid.Row="2" Grid.Column="1" Grid.RowSpan="4" Grid.ColumnSpan="4" HorizontalAlignment="Left" MaxHeight="450" MaxWidth="450" Stretch="Fill" Margin="10,10,10,10" >
-        </Image>
-
-        
-
-        
-
-        
+        </Image>     
 
     </Grid>
     

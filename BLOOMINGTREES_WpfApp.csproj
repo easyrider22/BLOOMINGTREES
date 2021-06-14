@@ -7,6 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BLOOMINGTREES_WpfApp\**" />
+    <EmbeddedResource Remove="BLOOMINGTREES_WpfApp\**" />
+    <None Remove="BLOOMINGTREES_WpfApp\**" />
+    <Page Remove="BLOOMINGTREES_WpfApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="images\2015-9-17-2.jpg" />
+    <None Remove="images\Acacia_1.jpg" />
+    <None Remove="images\Amaranth_1.jpg" />
+    <None Remove="images\Amaryllis_FlamencoQueen_1.jpg" />
+    <None Remove="images\Crocosmia_Red_1.jpg" />
+    <None Remove="images\Daffodil_Jonquilla_1.jpg" />
+    <None Remove="images\Dahlia_Mrs_Eileen_Dinnerplate_1.jpg" />
+    <None Remove="images\Echinacea_1.jpeg" />
+    <None Remove="images\Hollyhock Double Salmon_1.jpg" />
+    <None Remove="images\Hollyhock_Double_Maroon_1.jpg" />
+    <None Remove="images\Hydrangea_Fire_Light_1.jpg" />
+    <None Remove="images\Peony_Itoh_Bartzella_1.jpg" />
+    <None Remove="images\Primrose_2.jpg" />
+    <None Remove="images\Snow_Patch_Buttercup_1.jpg" />
+    <None Remove="images\Sunflower_Velvet_Queen_2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.2">
       <PrivateAssets>all</PrivateAssets>
@@ -15,8 +40,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BLOOMINGTREES_WpfApp\" />
     <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\2015-9-17-2.jpg" />
+    <Resource Include="images\Acacia_1.jpg" />
+    <Resource Include="images\Amaranth_1.jpg" />
+    <Resource Include="images\Amaryllis_FlamencoQueen_1.jpg" />
+    <Resource Include="images\Crocosmia_Red_1.jpg" />
+    <Resource Include="images\Daffodil_Jonquilla_1.jpg" />
+    <Resource Include="images\Dahlia_Mrs_Eileen_Dinnerplate_1.jpg" />
+    <Resource Include="images\Echinacea_1.jpeg" />
+    <Resource Include="images\Hollyhock Double Salmon_1.jpg" />
+    <Resource Include="images\Hollyhock_Double_Maroon_1.jpg" />
+    <Resource Include="images\Hydrangea_Fire_Light_1.jpg" />
+    <Resource Include="images\Peony_Itoh_Bartzella_1.jpg" />
+    <Resource Include="images\Primrose_2.jpg" />
+    <Resource Include="images\Snow_Patch_Buttercup_1.jpg" />
+    <Resource Include="images\Sunflower_Velvet_Queen_2.jpg" />
   </ItemGroup>
 
 </Project>
